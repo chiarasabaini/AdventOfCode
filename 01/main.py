@@ -1,9 +1,9 @@
 __author__ = "Chiara PR"
-__version__ = "01.01"
+__version__ = "01.02"
 __date__ = "2022-12-01"
 
-elves = []
-f_in = "input.txt"
+cal = []
+f_in = "./01/input.txt"
 
 with open(f_in, 'r', encoding='utf-8') as f:
     lines = f.readlines()
@@ -17,7 +17,9 @@ with open(f_in, 'r', encoding='utf-8') as f:
             # print(n)
             # print(res)
         else:
-            elves.append(res)
+            cal.append(res)
             res = 0
 
-print(max(elves))
+cal.sort(reverse=True)
+
+print(cal[0] + cal[1] + cal[2])
