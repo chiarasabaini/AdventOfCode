@@ -12,7 +12,7 @@ with open(f_in, 'r', encoding='utf-8') as f:
     res = 0
     for line in lines:
         if line != '\n':
-            n = int(line.split('\n')[0])
+            n = int(line)
             res += n
             # print(n)
             # print(res)
