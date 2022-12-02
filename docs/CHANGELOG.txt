@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [02.02] - 2022-12-02
+- solution of the second part of day02
+
+## [02.01] - 2022-12-02
+- solution of the first part of day02
+
 ## [01.02] - 2022-12-01
 - solution of the second part of day01
 
